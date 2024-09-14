@@ -6,4 +6,4 @@
 #SBATCH -e FirstSlurm.err
 #SBARCH --time=0-00:00:01
 
-hostname
+./task6 6

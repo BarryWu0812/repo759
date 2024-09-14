@@ -2,7 +2,7 @@
 
 int main(int argc, char* argv[])
 {
-    std::cout << "There are " << argc << " arguments:\n";
+    //std::cout << "There are " << argc << " arguments:\n";
     int N = std::atoi(argv[1]);
 
     // Loop through each argument and print its number and value
