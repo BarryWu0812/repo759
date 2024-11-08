@@ -11,7 +11,7 @@ __global__ void simpleKernel(int* data, int a)
 }
 int main()
 {
-    const int numElems = 16;
+    const int numElems = 512;
     std::random_device entropy_source;
     std::mt19937 generator(entropy_source());
     std::uniform_int_distribution<int> dist(-10, 10);
